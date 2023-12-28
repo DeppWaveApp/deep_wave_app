@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372734011978",
+    "project_id": "deep-wave-app",
+    "storage_bucket": "deep-wave-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372734011978:android:88d7b591117e1d992294b3",
+        "android_client_info": {
+          "package_name": "com.deepwave.deepwaveapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADwkgQMClW9Vrou6-XG1r-2nMfO1cb9g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
