@@ -23,6 +23,44 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372734011978:android:961ef41aa0e16c802294b3",
+        "android_client_info": {
+          "package_name": "com.deepwave.deepwaveapp.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADwkgQMClW9Vrou6-XG1r-2nMfO1cb9g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372734011978:android:3c6093cfe4be432d2294b3",
+        "android_client_info": {
+          "package_name": "com.deepwave.deepwaveapp.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADwkgQMClW9Vrou6-XG1r-2nMfO1cb9g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"

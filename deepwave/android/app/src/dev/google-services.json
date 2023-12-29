@@ -1,59 +1,21 @@
 {
   "project_info": {
-    "project_number": "372734011978",
-    "project_id": "deep-wave-app",
-    "storage_bucket": "deep-wave-app.appspot.com"
+    "project_number": "98184502103",
+    "project_id": "deepwave-dev",
+    "storage_bucket": "deepwave-dev.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:372734011978:android:88d7b591117e1d992294b3",
+        "mobilesdk_app_id": "1:98184502103:android:dd58064adf51d5c30d7c12",
         "android_client_info": {
-          "package_name": "com.deepwave.deepwaveapp"
+          "package_name": "deepwave.deepwaveapp.dev"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyADwkgQMClW9Vrou6-XG1r-2nMfO1cb9g0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:372734011978:android:961ef41aa0e16c802294b3",
-        "android_client_info": {
-          "package_name": "com.deepwave.deepwaveapp.dev"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyADwkgQMClW9Vrou6-XG1r-2nMfO1cb9g0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:372734011978:android:3c6093cfe4be432d2294b3",
-        "android_client_info": {
-          "package_name": "com.deepwave.deepwaveapp.staging"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyADwkgQMClW9Vrou6-XG1r-2nMfO1cb9g0"
+          "current_key": "AIzaSyAl3yyQ2NgXtJiPoWLU28pp9Wr0mph96co"
         }
       ],
       "services": {

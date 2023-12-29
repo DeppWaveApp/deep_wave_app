@@ -59,22 +59,17 @@ android {
         }
     }
 
-    flavourDimensions "default"
+    flavorDimensions "default"
 
     productFlavors {
         dev {
-            resValue "string", "app_name", "DeepWave-dev"
             dimension "default"
+            resValue "string", "app_name", "DeepWave-dev"
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
         }
-        staging {
-            resValue "string", "app_name", "DeepWave-staging"
-            dimension "default"
-            applicationIdSuffix ".staging"
-            versionNameSuffix "-staging"
-        }
         prod {
+            dimension "default"
             resValue "string", "app_name", "DeepWave"
         }
     }
