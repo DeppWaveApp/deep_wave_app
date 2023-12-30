@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359669906578",
+    "project_id": "deepwaveapp-staging",
+    "storage_bucket": "deepwaveapp-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359669906578:android:17268e4f6d6245d809fa4b",
+        "android_client_info": {
+          "package_name": "deepwave.deepwaveapp.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4t_7hSTxRs6pER6oQX3Dm6VE_QwNswc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

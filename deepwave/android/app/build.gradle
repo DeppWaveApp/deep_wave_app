@@ -68,6 +68,12 @@ android {
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
         }
+        staging {
+            dimension "default"
+            resValue "string", "app_name", "DeepWave-staging"
+            applicationIdSuffix ".staging"
+            versionNameSuffix "-staging"
+        }
         prod {
             dimension "default"
             resValue "string", "app_name", "DeepWave"
