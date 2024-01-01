@@ -7,5 +7,6 @@ class AppColors {
   static const secondaryColor = Color(0xFF242424);
   static const secondaryColorLight = Color(0xFF797979);
   static const tintColor = Color(0xFFF4F5F9);
-  static const scaffoldBackgroundColor = Color(0xFFFFFFFF);
+  static const scaffoldBackgroundColor = Color(0xFFF4F4F4);
+  static const whiteColor = Color(0xFFFFFFFF);
 }

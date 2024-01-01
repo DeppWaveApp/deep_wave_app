@@ -1,0 +1,33 @@
+import 'package:firebase_auth/firebase_auth.dart' as auth;
+import 'package:deepwave/repositories/auth/base_auth_repository.dart';
+
+class AuthRepository extends BaseAuthRepository {
+  final auth.FirebaseAuth _firebaseAuth;
+
+  AuthRepository({auth.FirebaseAuth? firebaseAuth})
+      : _firebaseAuth = firebaseAuth ?? auth.FirebaseAuth.instance;
+
+  @override
+  Future<auth.User?> signUp({
+    required String email,
+    required String password,
+  }) async {
+    try {
+      final credential = await _firebaseAuth.createUserWithEmailAndPassword(
+        email: email,
+        password: password,
+      );
+      return credential.user;
+    } on auth.FirebaseAuthException catch (e) {
+      throw Exception(e.message);
+    }
+  }
+
+  @override
+  Stream<auth.User?> get user => _firebaseAuth.userChanges();
+
+  @override
+  Future<void> signOut() async {
+    await _firebaseAuth.signOut();
+  }
+}

@@ -1,4 +1,4 @@
-import 'package:deepwave/utils/colors.dart';
+import 'package:deepwave/utils/theme/colors.dart';
 import 'package:flutter/material.dart';
 
 class AppTheme {
@@ -7,6 +7,7 @@ class AppTheme {
       scaffoldBackgroundColor: AppColors.scaffoldBackgroundColor,
       primaryColor: AppColors.primaryColor,
       primaryColorLight: AppColors.primaryColorLight,
+      fontFamily: 'Inter',
       appBarTheme: const AppBarTheme(
         color: AppColors.primaryColor,
         elevation: 0,
@@ -15,11 +16,35 @@ class AppTheme {
         ),
       ),
       textTheme: const TextTheme(
+        displayLarge: TextStyle(
+          fontSize: 40,
+          fontWeight: FontWeight.bold,
+          color: AppColors.scaffoldBackgroundColor,
+        ),
+        displaySmall: TextStyle(
+          fontSize: 18,
+          fontWeight: FontWeight.normal,
+          color: AppColors.primaryColor,
+        ),
+        headlineLarge: TextStyle(
+          fontSize: 24,
+          fontWeight: FontWeight.bold,
+          color: Color(0xFF242424),
+        ),
+        titleLarge: TextStyle(
+          fontSize: 24,
+          fontWeight: FontWeight.bold,
+          color: AppColors.primaryColor,
+        ),
         headlineMedium: TextStyle(
           fontSize: 24,
           fontWeight: FontWeight.bold,
           color: Color(0xFF242424),
-          fontFamily: 'Nunito Sans',
+        ),
+        bodyMedium: TextStyle(
+          fontSize: 16,
+          fontWeight: FontWeight.normal,
+          color: AppColors.secondaryColor,
         ),
       ),
     );
@@ -31,6 +56,7 @@ class AppTheme {
       primaryColor: AppColors.primaryColor,
       primaryColorLight: AppColors.primaryColorLight,
       primaryColorDark: AppColors.primaryColorDark,
+      fontFamily: 'Inter',
       appBarTheme: const AppBarTheme(
         backgroundColor: AppColors.primaryColor,
         elevation: 0,
@@ -43,7 +69,6 @@ class AppTheme {
           fontSize: 24,
           fontWeight: FontWeight.bold,
           color: Color(0xFFF4F5F9),
-          fontFamily: 'Nunito Sans',
         ),
       ),
     );
